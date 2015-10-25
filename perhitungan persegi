@@ -1,0 +1,10 @@
+#perhitungan persegi
+package newpackage.perhitungan;
+public class persegi {
+    int luas ;
+    public int luaspersegi (int sisi){
+        
+        luas = sisi*sisi;
+        return luas;
+    }
+}
