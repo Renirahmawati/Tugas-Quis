@@ -1,0 +1,18 @@
+# perhitungan lingkurang
+package newpackage.perhitungan;
+public class lingkaran {
+        double luas;
+        public double luaslingkaran (double jarijari){
+            luas = 3.14*jarijari*jarijari;
+            return luas;
+        }
+}
+package newpackage.perhitungan;
+public class persegi {
+    int luas ;
+    public int luaspersegi (int sisi){
+        
+        luas = sisi*sisi;
+        return luas;
+    }
+}
