@@ -1,0 +1,10 @@
+#perhitungan segitiga
+package newpackage.perhitungan;
+public class segitiga {
+    double luas ;
+    public double  Luassegitiga (double alas, double tinggi){
+        luas = (alas*tinggi) /2;
+        return luas;
+    }
+
+}
