@@ -1,0 +1,10 @@
+import newpackage.perhitungan.lingkaran;
+    public new_lingkaran(){
+        initComponents();
+    }
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        lingkaran a = new lingkaran();
+        double jarijari = Double.parseDouble(jTextField1.getText());
+        double hasil = a.luaslingkaran(jarijari);
+               jLabel2.setText("hasil ="+ hasil);
+    }                          
