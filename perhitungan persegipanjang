@@ -1,0 +1,10 @@
+#perhitungan persegipanjang
+package newpackage.perhitungan;
+public class persegipanjang {
+    double luas ;
+    public double Luaspersegipanjang(int panjang, int lebar){
+        
+            luas = panjang * lebar;
+            return luas;
+    }
+}
